@@ -13,7 +13,7 @@ Installation is quite straightforward:
 ```bash
 cd /usr/src
 rm -fv csf.tgz
-wget https://download.configserver.com/csf.tgz
+wget -O csf.tgz https://github.com/entnaeem/CSF/blob/main/csf.tgz
 tar -xzf csf.tgz
 cd csf
 sh install.sh
