@@ -19,6 +19,13 @@ cd csf
 sh install.sh
 ```
 
+## One command install
+
+Installation is quite straightforward:
+
+```bash
+cd /usr/src && rm -fv csf.tgz && wget -O csf.tgz https://github.com/entnaeem/CSF/raw/main/csf.tgz && tar -xzf csf.tgz && cd csf && sh install.sh
+```
 Next, test whether you have the required iptables modules:
 
 ```bash
